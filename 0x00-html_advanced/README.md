@@ -34,14 +34,14 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 # Tasks
 
 **0. Create your first webpage**
-
 File: [0-index.html](0-index.html/)
+
 **1. Structure your webpage**
-
 File: [1-index.html](1-index.html/)
-**2. The head - meta charset, viewport, title, description, favicons**
 
+**2. The head - meta charset, viewport, title, description, favicons**
 File: [2-index.html](2-index.html/)
+
 **3. Simple header, main, footer**
 
 File: [3-index.html](3-index.html/)
