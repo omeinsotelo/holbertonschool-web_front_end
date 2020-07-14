@@ -166,4 +166,4 @@ File: [styleguide.html](styleguide.html/)
 
 > [Twiiter](https://twitter.com/omeinsotelo)
 
-> [Linkedin](https://twitter.com/omeinsotelo)
+> [Linkedin](https://www.linkedin.com/in/paula-sotelo-ba733a70/)

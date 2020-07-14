@@ -28,4 +28,4 @@ WebAssembly, supported by all the major browsers (i.e. from the major vendors Go
 
 > [Twiiter](https://twitter.com/omeinsotelo)
 
-> [Linkedin](https://twitter.com/omeinsotelo)
+> [Linkedin](https://www.linkedin.com/in/paula-sotelo-ba733a70/)
