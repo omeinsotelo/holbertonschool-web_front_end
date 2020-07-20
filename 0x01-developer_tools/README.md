@@ -1,22 +1,131 @@
 ![](headerProject_t01.png)
 
-# Holberton School Web_front_end
-Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.
-# Tools used for front-end development
-##  Hyper Text Markup Language
-Hyper Text Markup Language (HTML) is the backbone of any website development process, without which a web page does not exist. Hypertext means that text has links, termed hyperlinks, embedded in it. When a user clicks on a word or a phrase that has a hyperlink, it will bring another web-page. A markup language indicates text can be turned into images, tables, links, and other representations. It is the HTML code that provides an overall framework of how the site will look. HTML was developed by Tim Berners-Lee. The latest version of HTML is called HTML5 and was published on October 28, 2014 by the W3 recommendation. This version contains new and efficient ways of handling elements such as video and audio files.
-##  Cascading Style Sheets (CSS)
-Cascading Style Sheets (CSS) controls the presentation aspect of the site and allows your site to have its own unique look. It does this by maintaining style sheets which sit on top of other style rules and are triggered based on other inputs, such as device screen size and resolution.
-##  JavaScript
-JavaScript is an event-based imperative programming language (as opposed to HTML's declarative language model) that is used to transform a static HTML page into a dynamic interface. JavaScript code can use the Document Object Model (DOM), provided by the HTML standard, to manipulate a web page in response to events, like user input.
+# Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+## General
+> - What Developer Tools in your browser are
+> - How to open the Developer Tools on Chrome, Firefox, Safari, and Edge.
+> - How to use the elements tab to edit HTML and CSS
+> - How to audit a page according to the tips suggested by Lighthouse
+> - How to create and run snippets on a page
+> - How to get information about files and server configurations
+> - How to block requests
+> - How to know how much JavaScript or CSS is used on a page
+> - How to detect 404 issues
+> - How to move elements on a webpage
 
-Using a technique called AJAX, JavaScript code can also actively retrieve content from the web (independent of the original HTML page retrieval), and also react to server-side events as well, adding a truly dynamic nature to the web page experience.
-##  WebAssembly
-WebAssembly, supported by all the major browsers (i.e. from the major vendors Google, Apple, Mozilla and Microsoft), is the only alternative to JavaScript for running code in web browsers (without the help of plug-ins, such as Flash, Java or Silverlight; all being discontinued, as browsers are dropping plug-in support). Prior to its adoption, there was asm.js (a subset of JavaScript; and thus strictly works in all browsers), that's also used as a compiler target with efficient support in browsers such as Internet Explorer 11; and for such browsers that do not support WebAssembly directly, it can be compiled to asm.js and those browsers supported that way. Generally speaking programmers do not program in WebAssembly (or asm.js) directly, but use languages such as Rust, C or C++ or in theory any language, that compile to it.
+# Requirements
+## General
+> - A README.md file, at the root of the folder of the project, is mandatory
+> - Use the newest version of Google Chrome browser (78.0.3904.70 or later).
+> - Screenshots can be taken via the OS, not necessary via the DevTools. These screenshots are used to see how and where you are doing/playing with the DevTools.
 
-# Content
+# Tasks
 
-- [0x00-html_advanced](/0x00-html_advanced)
+**0. Responsive device**
+File: [0-responsive_device.png](0-responsive_device.pngl/)
+
+**1. Change the background color**
+File: [1-change_bg_color.png](1-change_bg_color.png/)
+
+**2. Force element state**
+File: [2-pathways_menu.png](2-pathways_menu.png/)
+
+**3. Copy all the styles of the button**
+File: [3-button_styles](3-button_styles/)
+
+**4. Change button styles**
+File: [4-new_buttons.png](4-new_buttons.png/)
+
+**5. Remove part of the website**
+File: [5-deleted_elements.png](5-deleted_elements.png/)
+
+**6. Where is it coming from?**
+File: [6-declaration_file](6-declaration_file/)
+
+**7. How many listeners**
+File: [7-number_of_listeners](7-number_of_listeners/)
+
+**8. What is the HSL code**
+File: [8-hsl](8-hsl/)
+
+**9. The max-width of the container**
+File: [9-max_width](9-max_width/)
+
+**10. Moving around**
+File: [10-moved_around.png](10-moved_around.png/)
+
+**11. Coverage**
+File: [11-coverage](11-coverage/)
+
+**12. Emulate the print version of the webpage**
+File: [12-print_version.png](12-print_version.png/)
+
+**13. Using the console**
+File: [13-logo_dollar0](13-logo_dollar0/)
+
+**14. Write code in the console**
+File: [14-doc_title](14-doc_title/)
+
+**15. Holberton web framework**
+File: [15-hbtn_framework](15-hbtn_framework/)
+
+**16. Homepage weight**
+File: [16-weight.png](16-weight.png/)
+
+**17. Number of requests**
+File: [17-requests.png](17-requests.png/)
+
+**18. Number of CSS files**
+File: [18-css_loaded](18-css_loaded/)
+
+**19. Number of images**
+File: [19-images_loaded](19-images_loaded/)
+
+**20. Favicon image type**
+File: [20-favicon_type](20-favicon_type/)
+
+**21. Font library**
+File: [21-hbtn_font_lib](21-hbtn_font_lib/)
+
+**22. XHR calls**
+File: [22-xhr_calls](22-xhr_calls/)
+
+**23. Audits panel**
+File: [23-performance_audit.png](23-performance_audit.png/)
+
+**24. Static assets**
+File: [24-static_assets_audit.png](24-static_assets_audit.png/)
+
+**25. Accessibility**
+File: [25-contrast_issue](25-contrast_issue/)
+
+**26. No alt**
+File: [26-no_alt](26-no_alt/)
+
+**27. Best practices**
+File: [27-missing_attr](27-missing_attr/)
+
+**28. SEO**
+File: [28-unclear_desc.png](28-unclear_desc.png/)
+
+**29. Sources**
+File: [29-how_many_colors.png](29-how_many_colors.png/)
+
+**30. Block CSS files**
+File: [30-no_css.png](30-no_css.png/)
+
+**31. Application panel**
+File: [31-session_storage_key](31-session_storage_key/)
+
+**32. Service workers**
+File: [32-service_workers](32-service_workers/)
+
+**33. Security**
+File: [33-ssl_cert](33-ssl_cert/)
+
+**34. Expiration date**
+File: [34-ssl_expiration.png](34-ssl_expiration.png/)
 
 # Author
 
