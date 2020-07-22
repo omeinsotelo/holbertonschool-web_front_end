@@ -27,7 +27,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ## End goal of the project
 
-![](finalPage)
+![](finalPage.png)
 
 ##  HTML file for the project
 
