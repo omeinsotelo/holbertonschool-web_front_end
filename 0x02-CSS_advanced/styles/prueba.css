@@ -69,7 +69,7 @@ html {
 
 body {
 	/* set the foreground color text*/
-	color: var(--text-color);
+	fill: var(--text-color);
 	/* set the font family (letter type) */
 	font-family: var(--font-family-base);
 	/* set the font size (letter size) */
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 /* anchor elements that have a link in the href attr*/
 a:link {
 	/* set the color text */
-	color: var(--text-color);
+	fill: var(--text-color);
 	/* set the decoration in anchor element (without underscore under text) */
 	text-decoration: none;
 }
@@ -301,11 +301,11 @@ ul.row {
 	/* set the font size */
 	font-size: var(--font-size-small);
 	/* set the color text */
-	color: var(--text-color);
+	fill: var(--text-color);
 }
 
 /* all elements with class footer inside ul tag */
-ul .footer {
+ul.footer {
 	/* set the text align  */
 	text-align: right;
 }
@@ -342,7 +342,7 @@ ul .footer {
 /* all elements with class footer-address */
 .footer-address {
 	/* set the color text */
-	color: var(--text-color);
+	fill: var(--text-color);
 }
 
 /* all elements with class social-link */

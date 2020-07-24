@@ -280,7 +280,7 @@ html {
     --color-white : #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: black;
+    --text-color: var(--color-black);
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
@@ -296,7 +296,7 @@ html {
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: black;
+    --section-title-color: var(--color-black);
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
@@ -313,7 +313,7 @@ html {
     --section-tagline-margin: 0;
 }
 body {
-    color: var(--text-color);
+    fill: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 a:link {
-    color: var(--text-color);
+    fill: var(--text-color);
     text-decoration: none;
 }
 a:visited{
@@ -397,12 +397,12 @@ a:active{
 }
 .nav .nav-link{
     display: block;
-    padding: 50% 100%;
+    padding: 0.5rem 1rem;
 }
 .nav .nav-link:hover{
     color: var(--nav-item-link-hover);
 }
-.row ul{
+ul.row{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -420,8 +420,8 @@ a:active{
 .footer-copyright{
     margin: 0;
     font-size: var(--font-size-small);
-    color: var(--text-color);
+    fill: var(--text-color);
 }
-.footer ul{
+ul.footer{
     text-align: right;
 }

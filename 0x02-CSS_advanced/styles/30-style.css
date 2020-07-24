@@ -296,7 +296,7 @@ html {
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: black;
+    --section-title-color: var(--color-black);
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
@@ -328,7 +328,7 @@ html {
     --header-logo-link-left: 0;
 }
 body {
-    color: var(--text-color);
+    fill: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
@@ -340,7 +340,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 a:link {
-    color: var(--text-color);
+    fill: var(--text-color);
     text-decoration: none;
 }
 a:visited{
@@ -457,7 +457,7 @@ ul.row{
 .footer-copyright{
     margin: 0;
     font-size: var(--font-size-small);
-    color: var(--text-color);
+    fill: var(--text-color);
 }
 ul.footer{
     text-align: right;
@@ -478,7 +478,7 @@ ul.footer{
     --button-color: var(--color-white);
 }
 .footer-address{
-    color: var(--text-color);
+    fill: var(--text-color);
 }
 .social-link{
     display: block;
