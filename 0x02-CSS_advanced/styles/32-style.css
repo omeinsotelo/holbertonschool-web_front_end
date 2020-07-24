@@ -473,7 +473,7 @@ a:active{
     float: left;
     padding: 0.5rem;
 }
-header[data-section-theme=“dark”]{
+.header[data-section-theme=“dark”]{
     --text-color : var(--color-white);
     --section-title-color: var(--color-white);
     background: var(--color-black);

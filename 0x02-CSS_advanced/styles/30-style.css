@@ -280,7 +280,7 @@ html {
     --color-white : #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: black;
+    --text-color: var(--color-black);
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
@@ -361,7 +361,7 @@ a:active{
     text-decoration: var(--button-text-decoration);
 }
 .button:hover{
-    color: var(--button-text-decoration);
+    color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
 }
@@ -425,7 +425,7 @@ a:active{
 }
 .nav .nav-link{
     display: block;
-    padding: 50% 100%;
+    padding: 0.5rem 1rem;
 }
 .nav .nav-link::before{
     content: "";
@@ -439,11 +439,11 @@ a:active{
 .nav .nav-link:hover{
     color: var(--nav-item-link-hover);
 }
-.nav .nav-link:hover .nav-link::before{
+.nav .nav-item:hover .nav-link::before{
     background: var(--color-primary);
     width: 100%;
 }
-.row ul{
+ul.row{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -459,11 +459,11 @@ a:active{
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
-.footer ul{
+ul.footer{
     text-align: right;
 }
 .row::after{
-    content: none;
+    content: "";
     display: table;
     clear: both;
 }
@@ -471,8 +471,8 @@ a:active{
     float: left;
     padding: 0.5rem;
 }
-header[data-section-theme=“dark”]{
-    --text-color : var(--color-white);
+[data-section-theme=“dark”]{
+    --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background: var(--color-black);
     --button-color: var(--color-white);
@@ -484,7 +484,7 @@ header[data-section-theme=“dark”]{
     display: block;
 }
 .social-link > svg{
-    color: var(--text-color);
+    fill: var(--text-color);
 }
 .card-services .card-title{
     margin: 0;
@@ -527,7 +527,7 @@ header[data-section-theme=“dark”]{
 .header-logo{
     position: var(--header-logo-position);
 }
-.header-logo:link{
+.header-logo a{
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);

@@ -272,7 +272,7 @@ template{
 }
 html {
     scroll-behavior: smooth;
-    font-size: 62,5%;
+    font-size: 62.5%;
 }
 :root{
     --color-primary: #d73953;
@@ -428,5 +428,5 @@ a:active{
 }
 [class|=col]{
     float: left;
-    padding: 0,5rem;
+    padding: 0.5rem;
 }

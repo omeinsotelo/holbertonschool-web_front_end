@@ -267,7 +267,7 @@ template{
 
 *,
 *:before,
-*:after {
+*:after{
     box-sizing: border-box;
 }
 html {
@@ -277,16 +277,16 @@ html {
 :root{
     --color-primary: #d73953;
     --color-black: #090909;
-    --color-white : #ffffff;
+    --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: black;
+    --text-color: var(--color-black);
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
-    --font-size-x-large : 2.3rem;
+    --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
@@ -296,7 +296,7 @@ html {
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: black;
+    --section-title-color: var(--color-black);
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
@@ -308,7 +308,7 @@ html {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin:0 0 3rem 0;
+    --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-white);
     --section-tagline-margin: 0;
     --button-display: inline-block;
@@ -361,7 +361,7 @@ a:active{
     text-decoration: var(--button-text-decoration);
 }
 .button:hover{
-    color: var(--button-text-decoration);
+    color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
 }
@@ -425,7 +425,7 @@ a:active{
 }
 .nav .nav-link{
     display: block;
-    padding: 50% 100%;
+    padding: 0.5rem 1rem;
 }
 .nav .nav-link::before{
     content: "";
@@ -439,11 +439,11 @@ a:active{
 .nav .nav-link:hover{
     color: var(--nav-item-link-hover);
 }
-.nav .nav-link:hover .nav-link::before{
+.nav .nav-item:hover .nav-link::before{
     background: var(--color-primary);
     width: 100%;
 }
-.row ul{
+ul.row{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -459,11 +459,11 @@ a:active{
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
-.footer ul{
+ul.footer{
     text-align: right;
 }
 .row::after{
-    content: none;
+    content: "";
     display: table;
     clear: both;
 }
@@ -471,7 +471,7 @@ a:active{
     float: left;
     padding: 0.5rem;
 }
-header[data-section-theme=“dark”]{
+[data-section-theme=“dark”]{
     --text-color : var(--color-white);
     --section-title-color: var(--color-white);
     background: var(--color-black);
@@ -484,7 +484,7 @@ header[data-section-theme=“dark”]{
     display: block;
 }
 .social-link > svg{
-    color: var(--text-color);
+    fill: var(--text-color);
 }
 .card-services .card-title{
     margin: 0;
@@ -527,7 +527,7 @@ header[data-section-theme=“dark”]{
 .header-logo{
     position: var(--header-logo-position);
 }
-.header-logo:link{
+.header-logo a{
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
@@ -565,7 +565,7 @@ header[data-section-theme=“dark”]{
     text-decoration: none;
     padding-top: 45%;
 }
-.card-work .card-title::after{
+.card-work .card-title a::after{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -580,7 +580,7 @@ header[data-section-theme=“dark”]{
     position: relative;
 }
 .card-testimonial .card-quote::before{
-    content: \201C;
+    content: "\201C";
     position: absolute;
     top:-4.5rem;
     left: -1rem;
