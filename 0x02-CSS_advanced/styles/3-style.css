@@ -2,10 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    fill: var(--text-color);
+    color: var(--text-color);
 }
 a {
-    fill: var(--text-color);
+    color: var(--text-color);
 }
 .visually-hidden{
     display: none;

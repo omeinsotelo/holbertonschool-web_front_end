@@ -267,7 +267,7 @@ template{
 
 *,
 *:before,
-*:after {
+*:after{
     box-sizing: border-box;
 }
 html {
@@ -277,16 +277,16 @@ html {
 :root{
     --color-primary: #d73953;
     --color-black: #090909;
-    --color-white : #ffffff;
+    --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
-    --font-size-x-large : 2.3rem;
+    --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
@@ -308,7 +308,7 @@ html {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin:0 0 3rem 0;
+    --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-white);
     --section-tagline-margin: 0;
     --button-display: inline-block;
@@ -330,7 +330,7 @@ html {
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 body {
-    fill: var(--text-color);
+    color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 a:link {
-    fill: var(--text-color);
+    color: var(--text-color);
     text-decoration: none;
 }
 a:visited{
@@ -366,6 +366,8 @@ a:active{
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
+    transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
 }
 .visually-hidden{
     display: none;
@@ -437,11 +439,12 @@ a:active{
     background: var(--color-white);
     width: 0;
     height: 0.2rem;
+    transition: var(–transition-duration) var(transition-cubic-bezier);
 }
 .nav .nav-link:hover{
     color: var(--nav-item-link-hover);
 }
-.nav .nav-link:hover .nav-link::before{
+.nav .nav-item:hover .nav-link::before{
     background: var(--color-primary);
     width: 100%;
 }
@@ -459,7 +462,7 @@ ul.row{
 .footer-copyright{
     margin: 0;
     font-size: var(--font-size-small);
-    fill: var(--text-color);
+    color: var(--text-color);
 }
 ul.footer{
     text-align: right;
@@ -473,14 +476,14 @@ ul.footer{
     float: left;
     padding: 0.5rem;
 }
-.header[data-section-theme=“dark”]{
+[data-section-theme="dark"]{
     --text-color : var(--color-white);
     --section-title-color: var(--color-white);
     background: var(--color-black);
     --button-color: var(--color-white);
 }
 .footer-address{
-    fill: var(--text-color);
+    color: var(--text-color);
 }
 .social-link{
     display: block;
@@ -529,7 +532,7 @@ ul.footer{
 .header-logo{
     position: var(--header-logo-position);
 }
-.header-logo:link{
+.header-logo a{
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
@@ -551,6 +554,7 @@ ul.footer{
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
+    transition: var(–transition-duration) var(transition-cubic-bezier);
 }
 .card-work:hover .card-inner{
     background: rgba(0, 0, 0, 0.7);
@@ -567,7 +571,7 @@ ul.footer{
     text-decoration: none;
     padding-top: 45%;
 }
-.card-work .card-title::after{
+.card-work .card-title a::after{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -582,11 +586,18 @@ ul.footer{
     position: relative;
 }
 .card-testimonial .card-quote::before{
-    content: \201C;
+    content: "\201C";
     position: absolute;
     top:-4.5rem;
     left: -1rem;
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
+}
+.card-work:hover .card-image{
+    transform: scale(1.2);
+    transition: var(–transition-duration) var(transition-cubic-bezier);
+}
+.card-work:hover .card-outer{
+    transform: scale(0.95);
 }
