@@ -552,7 +552,7 @@ ul.row{
     z-index: 1;
 }
 .card-work:hover .card-inner{
-    background: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .card-work .card-title{
     text-align: center;
@@ -566,7 +566,7 @@ ul.row{
     text-decoration: none;
     padding-top: 45%;
 }
-.card-work .card-title::after{
+.card-work .card-title a::after{
     position: absolute;
     top: 0;
     bottom: 0;
