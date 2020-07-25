@@ -423,7 +423,7 @@ ul.row{
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
-ul.footer{
+.footer ul{
     text-align: right;
 }
 .row::after{
