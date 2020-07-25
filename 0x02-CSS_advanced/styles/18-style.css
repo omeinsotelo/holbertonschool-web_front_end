@@ -381,8 +381,8 @@ a:active{
     float: right;
 }
 .nav{
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0;
+    padding: 0;
     list-style: none;
     text-align: center;
 }
