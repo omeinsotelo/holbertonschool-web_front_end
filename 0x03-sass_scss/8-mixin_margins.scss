@@ -1,0 +1,13 @@
+/* Margin mixin */
+@mixin marginLeftRight($arg) {
+	margin-left: $arg;
+	margin-right: $arg;
+}
+
+body {
+	@include marginLeftRight(10px);
+}
+
+div {
+	@include marginLeftRight(15px);
+}
