@@ -31,6 +31,7 @@ Download the images linked in the - [0x02-CSS_advanced](/0x02-CSS_advanced) and 
 
 ## HTML starter file
 
+```sh
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -386,6 +387,7 @@ Download the images linked in the - [0x02-CSS_advanced](/0x02-CSS_advanced) and 
     </footer>
   </body>
 </html>
+```
 
 ## CSS starter file
 
@@ -894,7 +896,10 @@ Download the images linked in the - [0x02-CSS_advanced](/0x02-CSS_advanced) and 
   }
 
 ## Files for tasks 10 and onward
+
 - article.html
+
+```sh
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -1025,6 +1030,7 @@ Download the images linked in the - [0x02-CSS_advanced](/0x02-CSS_advanced) and 
     </footer>
   </body>
 </html>
+```
 
 # Tasks
 
