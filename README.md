@@ -20,6 +20,7 @@ WebAssembly, supported by all the major browsers (i.e. from the major vendors Go
 - [0x01-developer_tools](/0x01-developer_tools)
 - [0x02-CSS_advanced](/0x02-CSS_advanced)
 - [0x03-sass_scss](/0x03-sass_scss)
+- [0x04-flexbox](/0x04-flexbox)
 
 # Author
 
