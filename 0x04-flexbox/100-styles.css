@@ -174,7 +174,9 @@
   
   /* Grid
       ============================= */
-  
+  .row {
+      display: flex;
+  }
   ul.row {
     margin: -1rem;
     padding: 0;
@@ -191,9 +193,6 @@
   
   .col-1-2 {
     width: calc((100% / 2) - 2rem);
-  }
-  .row{
-      display: flex;
   }
 
   /* Navbar
@@ -213,7 +212,7 @@
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
   }
-  .nav .nav-item + .nav-item {
+  .nav .nav-item+.nav-item {
     margin: var(--nav-item-margin);
 }
   
@@ -249,9 +248,9 @@
   
   .header {
     padding: var(--header-padding);
-         position: relative;
-         z-index: 3;
-         background: transparent !important;
+    position: relative;
+    z-index: 3;
+    background: transparent !important;
   }
   .header-container{
       display: flex;
@@ -522,34 +521,6 @@
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
-  }
-/*** ARTICLE PAGE ***/
-/* Section HERO (article)
-    ============================= */
-
-  .hero-article {
-      background-size: 150rem 100rem;
-      background-position: 50% 0;
-}
-  .hero-article::before {
-      content: "";
-      background: rgba(0, 0, 0, 0.8);
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      z-index: 0;
-  }
-  .hero-article .section-inner {
-      text-align: center;
-      align-items: center;
-      min-height: 40vh;
-  }
-  .section-article .section-body {
-      position: relative;
-      padding: 7rem 0 0;
-      z-index: 2;
   }
  /*** ARTICLE PAGE ***/
 /* Section HERO (article)
