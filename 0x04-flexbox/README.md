@@ -1094,6 +1094,13 @@ File: [13-styles.css](13-styles.css/)
 File: [14-index.html](14-index.html/)
 File: [14-styles.css](14-styles.css/)
 
+**15. Finalizing the cherry on the cake that is the article**
+File: [100-article.html](100-article.html/)
+File: [100-styles.css](100-styles.css/)
+
+**16. Timemachine boxes!**
+File: [101-style.css](101-style.css/)
+
 # Author
 
 > Paula Sotelo Vandamme
