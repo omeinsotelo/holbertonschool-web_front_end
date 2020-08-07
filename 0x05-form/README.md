@@ -890,52 +890,59 @@ ul.row {
   content: "";
 }
 ## Final rendering
-![](Final rendering1.png)
+
+![](Finalrendering1.png)
 
 **1. more comment basic structure**
 File: [02-article.html](02-article.html/)
 File: [02-styles.css](02-styles.css/)
 
 ## Final rendering
-![](Final rendering2.png)
+
+![](Finalrendering2.png)
 
 **2. create labels and input container**
 File: [03-article.html](03-article.html/)
 File: [03-styles.css](03-styles.css/)
 
 ## Final rendering
-![](Final rendering3.png)
+
+![](Finalrendering3.png)
 
 **3. create the inputs**
 File: [04-article.html](04-article.html/)
 File: [04-styles.css](04-styles.css/)
 
 ## Final rendering
-![](Final rendering4_1.png)
-![](Final rendering4_2.png)
+
+![](Finalrendering4_1.png)
+![](Finalrendering4_2.png)
 
 **4. add help messages**
 File: [05-article.html](05-article.html/)
 File: [05-styles.css](05-styles.css/)
 
 ## Final rendering
-![](Final rendering5.png)
+
+![](Finalrendering5.png)
 
 **5. add pure HTML / CSS error handling**
 File: [06-article.html](06-article.html/)
 File: [06-styles.css](06-styles.css/)
 
 ## Final rendering
-![](Final rendering6.png)
+
+![](Finalrendering6.png)
 
 **6. add the search form**
 File: [07-article.html](07-article.html/)
 File: [07-styles.css](07-styles.css/)
 
 ## Final rendering
-![](Final rendering7_1.png)
-![](Final rendering7_2.png)
-![](Final rendering7_3.png)
+
+![](Finalrendering7_1.png)
+![](Finalrendering7_2.png)
+![](Finalrendering7_3.png)
 
 # Author
 
