@@ -1350,6 +1350,15 @@ File: [10-styles.css](10-styles.css/)
 
 ![](Finalrendering13.png)
 
+**11. Make the article page responsive**
+File: [10-index.html](100-article.html/)
+File: [10-styles.css](100-styles.css/)
+
+## Final rendering
+
+![](Finalrendering14.png)
+![](Finalrendering15.png)
+
 # Author
 
 > Paula Sotelo Vandamme

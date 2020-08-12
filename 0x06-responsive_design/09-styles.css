@@ -351,7 +351,7 @@ a:active {
     }
 }
 
-@media screen and (max-width:481px) and (max-width:767px) {
+@media screen and (min-width:481px) and (max-width:767px) {
     html {
         font-size: 60%;
     }
@@ -1262,4 +1262,6 @@ textarea:valid:not(:placeholder-shown) {
     z-index: 1;
     border-bottom: .1rem solid var(--color-grey);
     padding: 0;
+    cursor: text;
+    margin: 0 1rem;
 }
