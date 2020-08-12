@@ -1033,9 +1033,3 @@
         cursor: text;
         margin: 0 1rem;
     }
-    
-    @media screen and (max-width:992px) {}
-    
-    @media screen and (max-width:767px) {}
-    
-    @media screen and (max-width:480px) {}
